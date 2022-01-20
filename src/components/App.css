@@ -1,0 +1,14 @@
+.item {
+  margin: 2rem;
+  background-color: rgba(124, 119, 119, 0.404);
+  padding: 0.6rem;
+}
+
+.ui.button {
+  background-color: rgb(200, 39, 39);
+  color: aliceblue;
+}
+
+.ui.button:hover {
+  background-color: #fff;
+}
