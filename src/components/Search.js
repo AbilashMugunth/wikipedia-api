@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 const Search = () => {
-  const [term, setTerm] = useState("dua lipa");
+  const [term, setTerm] = useState("javascript");
   const [results, setResults] = useState([]);
   console.log(results);
 
@@ -23,7 +23,7 @@ const Search = () => {
 
     const timeoutId = setTimeout(() => {
       search();
-    }, 1000);
+    }, 500);
 
     // *!Cleanup function of useeffect////
     return () => {
